@@ -37,6 +37,13 @@ class Starship(FlightVehicle):
     super().__init__()
     pass
 
+#  [Vehicle]->[FlightVehicle]->[Airplane]
+#  Airplane should inhert from FlightVehicle and Vehicle
+class Airplane(FlightVehicle):
+  def __init__(self):
+    super().__init__()
+    pass
+
 #  GroundVehicle should inhert from Vehicle
 class GroundVehicle(Vehicle):
   def __init__(self):
