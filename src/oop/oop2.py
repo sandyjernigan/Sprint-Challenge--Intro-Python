@@ -7,7 +7,9 @@ class GroundVehicle():
     def __init__(self, num_wheels):
         self.num_wheels = num_wheels
 
-    # TODO
+    # Method drive() should return "vroooom"
+    def drive():
+        return "vroooom"
 
 
 # Subclass Motorcycle from GroundVehicle.
