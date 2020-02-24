@@ -22,3 +22,9 @@
 class Vehicle:
   def __init__(self):
     pass
+
+#  [Vehicle]->[FlightVehicle]
+class FlightVehicle(Vehicle):
+  def __init__(self):
+    pass
+  
