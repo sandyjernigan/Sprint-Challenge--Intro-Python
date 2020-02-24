@@ -24,7 +24,8 @@ class Vehicle:
     pass
 
 #  [Vehicle]->[FlightVehicle]
+#  FlightVehicle should inhert from Vehicle
 class FlightVehicle(Vehicle):
   def __init__(self):
+    super().__init__()
     pass
-  
