@@ -60,7 +60,7 @@ class Car(GroundVehicle):
   
 #  [Vehicle]->[GroundVehicle]->[Motorcycle]
 #  Motorcycle should inhert from GroundVehicle and Vehicle
-class Car(GroundVehicle):
+class Motorcycle(GroundVehicle):
   def __init__(self):
     super().__init__()
     pass
