@@ -17,3 +17,8 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# Base class of Vehicle
+class Vehicle:
+  def __init__(self):
+    pass
