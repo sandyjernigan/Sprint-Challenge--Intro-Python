@@ -34,11 +34,8 @@ def cityreader(cities=[]):
     reader = csv.reader(csvfile)
 
     for row in reader:
-      if row[0] == 'Seattle':
-        print(row)
-        print((row[0], row[3], row[3]))
-      # else:
-        # cities.append(City(row[0], row[3], row[3]))
+      if row[0] != 'city':
+        cities.append(City(row[0], row[3], row[3]))
     
     return cities
 
