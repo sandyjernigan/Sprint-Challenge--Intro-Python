@@ -36,3 +36,9 @@ class Starship(FlightVehicle):
   def __init__(self):
     super().__init__()
     pass
+
+#  GroundVehicle should inhert from Vehicle
+class GroundVehicle(Vehicle):
+  def __init__(self):
+    super().__init__()
+    pass
