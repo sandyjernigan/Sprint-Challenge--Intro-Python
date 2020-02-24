@@ -1,6 +1,17 @@
 # Create a class to hold a city location. Call the class "City". It should have
 # fields for name, lat and lon (representing latitude and longitude).
 
+class City:
+  def __init__(self, name, lat, lon):
+    self.name: name
+    self.lat: lat
+    self.lon: lon
+  
+  def __repr__(self):
+    return f"<City: {self.name}, Location: {self.lat}, {self.lon}>"
+
+  def __str__(self):
+    return f"The city {self.name} is located at latitude: {self.lat} and longitude: {self.lon}" 
 
 # We have a collection of US cities with population over 750,000 stored in the
 # file "cities.csv". (CSV stands for "comma-separated values".)
