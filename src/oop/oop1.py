@@ -44,8 +44,16 @@ class Airplane(FlightVehicle):
     super().__init__()
     pass
 
+#  [Vehicle]->[GroundVehicle]
 #  GroundVehicle should inhert from Vehicle
 class GroundVehicle(Vehicle):
+  def __init__(self):
+    super().__init__()
+    pass
+  
+#  [Vehicle]->[GroundVehicle]->[Car]
+#  Car should inhert from GroundVehicle and Vehicle
+class Car(GroundVehicle):
   def __init__(self):
     super().__init__()
     pass
